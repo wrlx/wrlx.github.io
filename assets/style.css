@@ -1,0 +1,218 @@
+
+.dot {
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    background-image: url("1623114762768-01-01.jpeg");
+    background-size: cover;
+  }
+  div.a{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+  }
+  .b{
+     min-height: 100px;
+     max-width: 500px;
+     padding: 15px;
+
+  }
+  .background{
+    background: #262626;
+    padding-top: 15px;
+    margin-top: 70px;
+    min-height: 500px;
+    color: #666;
+  }
+  .skill{
+      width: 200px;
+      margin-top:20px;
+      margin-bottom: 20px;
+
+  }
+  .c{
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  .connect > ul{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0px;
+    
+  }
+  .connect > ul li{
+    position: relative;
+    display: block;
+    color: #666;
+    font-size: 10px;
+    height: 40px;
+    width: 40px;
+    background: #171515;
+    line-height: 40px;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: .5s;
+  }
+  .connect > ul li:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: inherit;
+    width: inherit;
+    /* background: #d35400; */
+    border-radius: 50%;
+    transform: scale(.9);
+    z-index: -1;
+    transition: .5s;
+   
+  }
+  .connect > ul li:nth-child(5):before{
+    background: #4267B2;
+  }
+  .connect > ul li:nth-child(1):before{
+    background: #1DA1F2;
+  }
+  .connect > ul li:nth-child(2):before{
+    background: #E1306C;
+  }
+  ul li:nth-child(3):before{
+    background: #2867B2;
+  }
+  ul li:nth-child(4):before{
+    background: #ff0000;
+  }
+  ul li:hover:before{
+    filter: blur(3px);
+    transform: scale(1.2);
+    /* box-shadow: 0 0 15px #d35400; */
+  }
+  ul li:nth-child(5):hover:before{
+    box-shadow: 0 0 30px #4267B2;
+  }
+  ul li:nth-child(1):hover:before{
+    box-shadow: 0 0 30px #1DA1F2;
+  }
+  ul li:nth-child(2):hover:before{
+    box-shadow: 0 0 30px #E1306C;
+  }
+  ul li:nth-child(3):hover:before{
+    box-shadow: 0 0 30px #2867B2;
+  }
+  ul li:nth-child(4):hover:before{
+    box-shadow: 0 0 30px #ff0000;
+  }
+  ul li:nth-child(5):hover{
+    color: #456cba;
+    box-shadow: 0 0 30px #4267B2;
+    text-shadow: 0 0 15px #4267B2;
+  }
+  ul li:nth-child(1):hover{
+    color: #26a4f2;
+    box-shadow: 0 0 30px #1DA1F2;
+    text-shadow: 0 0 15px #1DA1F2;
+  }
+  ul li:nth-child(2):hover{
+    color: #e23670;
+    box-shadow: 0 0 30px #E1306C;
+    text-shadow: 0 0 15px #E1306C;
+  }
+  ul li:nth-child(3):hover{
+    color: #2a6cbb;
+    box-shadow: 0 0 30px #2867B2;
+    text-shadow: 0 0 15px #2867B2;
+  }
+  ul li:nth-child(4):hover{
+    color: #ff1a1a;
+    box-shadow: 0 0 30px #ff0000;
+    text-shadow: 0 0 15px #ff0000;
+  }
+  /* ul li:hover{
+    color: #ffa502;
+    box-shadow: 0 0 15px #d35400;
+    text-shadow: 0 0 15px #d35400;
+  } */
+  div.connect{
+    display: flex;
+    min-height: 50px;
+    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #262626;
+  }
+  i.ico{
+    
+    position: relative;
+    display: block;
+    color: #666;
+    font-size: 40px;
+    height: 40px;
+    width: 40px;
+    
+    line-height: 40px;
+    
+    margin: 0 10px;
+    cursor: pointer;
+    transition: .5s;
+  }
+  .icont{
+      height: 40px;
+      width: 40px;
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+      padding-left: 5px;
+  }
+.cont{
+    padding-left: 10px;
+}
+.underline2{
+    border-style: solid;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 3px;
+    border-color: #15f4ee;
+    margin-bottom: 10px;
+    width: 200px;
+}
+.underline3{
+    border-style: solid;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 3px;
+    border-color: #15f4ee;
+    margin-bottom: 10px;
+    width: 200px;
+    
+    
+}
+p{
+    text-align: center;
+}
+.title4{
+    border-style: solid;
+    border-width: 0px;
+    border-color: #15f4ee;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #15f4ee;
+    
+    cursor: pointer;
+    border-radius: 100px;
+    text-align: center;
+    transition: 1.5s;
+    box-shadow: 0 5px 50px 0 #15f4ee;   
+}
+
